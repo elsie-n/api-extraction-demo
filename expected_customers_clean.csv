@@ -1,0 +1,5 @@
+customer_id,name,username,email,phone,website,address_street,address_suite,address_city,address_zipcode,address_geo_lat,address_geo_lng,company_name,company_catchphrase,company_bs
+<int>,<text>,<text>,<email>,<text>,<text>,<text>,<text>,<text>,<text>,<float>,<float>,<text>,<text>,<text>
+...
+# One row per user returned by the API (no duplicates, no blank customer_id).
+# Column names are lower_snake_case. Latitude/longitude stored as numbers, not strings.
